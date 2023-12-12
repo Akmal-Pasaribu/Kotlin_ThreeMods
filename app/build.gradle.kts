@@ -53,8 +53,11 @@ android {
 dependencies {
 
     implementation("androidx.constraintlayout:constraintlayout:2.2.0-alpha07")
+    implementation("com.google.android.material:material:1.2.0")
     // To use constraintlayout in compose
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
+    implementation("androidx.navigation:navigation-fragment:2.1.0")
+    implementation("androidx.navigation:navigation-ui:2.1.0")
     implementation("androidx.constraintlayout:constraintlayout-compose:1.1.0-alpha07")
     implementation("androidx.coordinatorlayout:coordinatorlayout:1.2.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
